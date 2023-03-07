@@ -225,7 +225,7 @@ plaintext 표현
   ```
 </details>
 
-```
+```md
 <details>
   <summary>Click me</summary>
   
