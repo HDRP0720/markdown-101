@@ -207,6 +207,43 @@ plaintext 표현
 <br/>
 <br/>
 
+# 토글 리스트(toggle list or collapsible)
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+```
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+```
+
 # 표(Table)
 ```plaintext
 띄어쓰기+ '|' 기호를 통해 표형태로 만들어 낼 수 있으며, 
